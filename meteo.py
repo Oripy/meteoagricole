@@ -96,4 +96,4 @@ ax3.xaxis.set_major_locator(mdates.DayLocator(interval=1))
 ax3.xaxis.set_major_formatter(mdates.DateFormatter('%a %d %b'))
 
 plt.tight_layout()
-plt.show()
+plt.savefig(pub[1].text + '_output.png')
